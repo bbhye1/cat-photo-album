@@ -1,5 +1,5 @@
-const text = document.createElement('h1');
+import App from './App.js';
 
-text.textContent = "Cat";
+const app = new App();
 
-document.body.appendChild(text);
+document.body.appendChild(app);
